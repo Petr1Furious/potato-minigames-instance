@@ -1,0 +1,15 @@
+filename = 'sodium-shadowy-path-blocks-fabric-8.0.0.jar'
+name = 'Sodium Shadowy Path Blocks (SSPB)'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "9d5d153d39700683ffbf62afd0e965eb86113382"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/EIa1eiMm/versions/gobiZrtK/sodium-shadowy-path-blocks-fabric-8.0.0.jar'
+
+[update.modrinth]
+mod-id = 'EIa1eiMm'
+version = 'gobiZrtK'

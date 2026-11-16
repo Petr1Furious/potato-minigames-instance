@@ -1,0 +1,15 @@
+filename = 'reeses-sodium-options-fabric-2.2.6-beta.3+mc26.3.jar'
+name = "Reese's Sodium Options"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = "7ad0400407970bd354d099fea25ac44f26167634"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/Bh37bMuy/versions/FlHcdgXM/reeses-sodium-options-fabric-2.2.6-beta.3%2Bmc26.3.jar'
+
+[update.modrinth]
+mod-id = 'Bh37bMuy'
+version = 'FlHcdgXM'

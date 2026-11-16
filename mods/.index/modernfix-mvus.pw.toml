@@ -1,0 +1,15 @@
+filename = 'modernfix-5.27.20-build.2.jar'
+name = 'ModernFix-mVUS'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "b63337e801fbf2cb420a049d69220c56e083f514"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/TjSm1wrD/versions/pa9cAfYg/modernfix-5.27.20-build.2.jar'
+
+[update.modrinth]
+mod-id = 'TjSm1wrD'
+version = 'pa9cAfYg'

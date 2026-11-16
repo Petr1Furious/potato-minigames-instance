@@ -1,0 +1,15 @@
+filename = 'cwb-5.0.0+26.3.jar'
+name = 'Cubes Without Borders'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "7e75cee129623fd6549df2915413e4afc36acf39"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/ETlrkaYF/versions/26KCwNI9/cwb-5.0.0%2B26.3.jar'
+
+[update.modrinth]
+mod-id = 'ETlrkaYF'
+version = '26KCwNI9'

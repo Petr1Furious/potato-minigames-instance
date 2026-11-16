@@ -1,0 +1,55 @@
+id = "minigames"
+display_name = { en = "Minigames", ru = "Миниигры" }
+minecraft = "26.3"
+loader = "fabric"
+loader_version = "0.20.1"
+auth_backend = { type = "telegram", auth_base_url = "https://mc-auth.petr1furious.me" }
+
+[publish]
+base_url = "https://mc-dev.petr1furious.me/data"
+target = "rsync://minecraft@petr1furious.me/home/minecraft/srv/potato-launcher-dev/site/data"
+mirror = true
+
+[client]
+resource_sync = "on_update"
+mod_sync = "mirror"
+
+[[client.optional_sets]]
+id = "voxy-set"
+display_name = "Voxy"
+enabled_by_default = true
+mods = ["voxy-windows", "voxy-macos"]
+
+[[client.optional_sets]]
+id = "dh-set"
+display_name = "Distant Horizons"
+enabled_by_default = false
+mods = ["distanthorizons"]
+
+[[client.optional_sets]]
+id = "replay-mod-set"
+display_name = "Replay Mod"
+enabled_by_default = false
+mods = ["replaymod"]
+
+[[client.optional_sets]]
+id = "litematica-set"
+display_name = "Litematica"
+enabled_by_default = false
+mods = ["litematica", "malilib"]
+
+[[paths]]
+path = "config/fabric_loader_dependencies.json"
+type = "file"
+overwrite = true
+
+[[paths]]
+path = "options.txt"
+type = "file"
+overwrite = false
+
+[[paths]]
+path = "servers.dat"
+type = "file"
+overwrite = true
+version = 1

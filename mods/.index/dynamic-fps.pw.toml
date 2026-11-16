@@ -1,0 +1,15 @@
+filename = 'dynamic-fps-3.11.10+minecraft-26.3.0-fabric.jar'
+name = 'Dynamic FPS'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "a4860c9480f0ce1a468e1e4c254214b1f97e19b3"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/LQ3K71Q1/versions/Jwq069rR/dynamic-fps-3.11.10%2Bminecraft-26.3.0-fabric.jar'
+
+[update.modrinth]
+mod-id = 'LQ3K71Q1'
+version = 'Jwq069rR'

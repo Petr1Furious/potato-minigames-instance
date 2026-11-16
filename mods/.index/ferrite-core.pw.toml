@@ -1,0 +1,15 @@
+filename = 'ferritecore-9.0.0-fabric.jar'
+name = 'FerriteCore'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "eac76ff0f3753422c61b2c44487d0d195d88d4bc"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar'
+
+[update.modrinth]
+mod-id = 'uXXizFIs'
+version = 'd5ddUdiB'

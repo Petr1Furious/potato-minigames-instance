@@ -1,0 +1,15 @@
+filename = 'litematica-fabric-26.3-0.29.1.jar'
+name = 'Litematica'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "2c0e37ef450b7fcea61e0fce482f134d1fe5a9c6"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/bEpr0Arc/versions/ZqV316KY/litematica-fabric-26.3-0.29.1.jar'
+
+[update.modrinth]
+mod-id = 'bEpr0Arc'
+version = 'ZqV316KY'

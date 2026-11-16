@@ -1,0 +1,15 @@
+filename = 'language-reload-1.7.8+26.3.jar'
+name = 'Language Reload'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "e6fd2df83d1d3d0f352a7e45eaf76f4551c136f2"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/uLbm7CG6/versions/QVn4cccd/language-reload-1.7.8%2B26.3.jar'
+
+[update.modrinth]
+mod-id = 'uLbm7CG6'
+version = 'QVn4cccd'

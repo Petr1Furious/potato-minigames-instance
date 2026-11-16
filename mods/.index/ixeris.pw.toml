@@ -1,0 +1,15 @@
+filename = 'Ixeris-4.6.11-26.3-fabric.jar'
+name = 'Ixeris'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "c45c38e918fa8565abe03904d366faac7ec6b229"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/p8RJPJIC/versions/mj30lAl8/Ixeris-4.6.11%2B26.3-fabric.jar'
+
+[update.modrinth]
+mod-id = 'p8RJPJIC'
+version = 'mj30lAl8'

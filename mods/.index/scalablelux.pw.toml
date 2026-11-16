@@ -1,0 +1,15 @@
+filename = 'ScalableLux-fabric-mc26.3-0.3.0-alpha.0.6-all.jar'
+name = 'ScalableLux'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = "d51dcbe901452a1cb378139ca351009254e7ab0d"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/Ps1zyz6x/versions/g4eqNSKd/ScalableLux-fabric-mc26.3-0.3.0-alpha.0.6-all.jar'
+
+[update.modrinth]
+mod-id = 'Ps1zyz6x'
+version = 'g4eqNSKd'

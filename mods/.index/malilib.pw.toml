@@ -1,0 +1,15 @@
+filename = 'malilib-fabric-26.3-0.30.2.jar'
+name = 'MaLiLib'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "832a00c0d6417d7f195fbe1b1c643bbd4893e64a"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/GcWjdA9I/versions/JX9bESec/malilib-fabric-26.3-0.30.2.jar'
+
+[update.modrinth]
+mod-id = 'GcWjdA9I'
+version = 'JX9bESec'

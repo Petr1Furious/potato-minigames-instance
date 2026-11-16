@@ -1,0 +1,15 @@
+filename = 'bbe-fabric-1.4.1+mc26.3-mod.jar'
+name = 'BBE'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "638253dbece7b4394bf3b8d44a4b9c62991bee42"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/ONZm0H7Y/versions/wORq9rW6/bbe-fabric-1.4.1%2Bmc26.3-mod.jar'
+
+[update.modrinth]
+mod-id = 'ONZm0H7Y'
+version = 'wORq9rW6'

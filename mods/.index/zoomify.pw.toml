@@ -1,0 +1,15 @@
+filename = 'zoomify-2.17.0+mc26.3-universal.jar'
+name = 'Zoomify (Zoom)'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "7f18090fea4a2ddae01e032d09629d14fa381d3f"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/w7ThoJFB/versions/RUBpNu00/zoomify-2.17.0%2Bmc26.3-universal.jar'
+
+[update.modrinth]
+mod-id = 'w7ThoJFB'
+version = 'RUBpNu00'

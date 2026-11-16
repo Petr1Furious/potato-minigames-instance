@@ -1,0 +1,15 @@
+filename = 'fastquit-3.1.5+mc26.2.jar'
+name = 'FastQuit'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = "0977eb0a35e1a1602bc9306ddbbb9177734131f0"
+hash-format = "sha1"
+url = 'https://cdn.modrinth.com/data/x1hIzbuY/versions/ZZ5dfboC/fastquit-3.1.5%2Bmc26.2.jar'
+
+[update.modrinth]
+mod-id = 'x1hIzbuY'
+version = 'ZZ5dfboC'
