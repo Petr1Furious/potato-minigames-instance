@@ -1,0 +1,13 @@
+name = "voxy-0.2.20-beta"
+filename = "voxy-0.2.20-beta.jar"
+side = "both"
+os = ["windows"]
+
+[download]
+url = "https://cdn.modrinth.com/data/fxxUqruK/versions/iIrM8ZKQ/voxy-0.2.20-beta.jar"
+hash-format = "sha1"
+hash = "a0efa54716b0fcbf4075cc18f4dbfbdc3b0cf305"
+
+[update.modrinth]
+mod-id = "fxxUqruK"
+version = "iIrM8ZKQ"
