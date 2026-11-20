@@ -1,12 +1,15 @@
-name = "fabric-api-0.166.0+26.3"
-filename = "fabric-api-0.166.0+26.3.jar"
+filename = 'fabric-api-0.166.2+26.3.jar'
+name = 'Fabric API'
 side = "both"
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-url = "https://cdn.modrinth.com/data/P7dR8mSH/versions/998R2rNP/fabric-api-0.166.0%2B26.3.jar"
+hash = "65636253571429971f25f5619692e6c1a6362028"
 hash-format = "sha1"
-hash = "7f16cfcd4ef3d225a21417907634957787b31a5f"
+url = 'https://cdn.modrinth.com/data/P7dR8mSH/versions/Zns5SSRA/fabric-api-0.166.2%2B26.3.jar'
 
 [update.modrinth]
-mod-id = "P7dR8mSH"
-version = "998R2rNP"
+mod-id = 'P7dR8mSH'
+version = 'Zns5SSRA'

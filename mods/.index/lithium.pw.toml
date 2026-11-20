@@ -1,4 +1,4 @@
-filename = 'lithium-fabric-0.26.3-mc26.3.jar'
+filename = 'lithium-fabric-0.26.4+mc26.3.jar'
 name = 'Lithium'
 side = 'both'
 x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
@@ -6,10 +6,10 @@ x-prismlauncher-mc-versions = [ '26.3' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = "2d3afe9d43bb2549e23479d8d93e644ff366bebf"
+hash = "b87fcae581c1ff1b3aac8314004c9d7616f90827"
 hash-format = "sha1"
-url = 'https://cdn.modrinth.com/data/gvQqBUqZ/versions/fWv5bnZk/lithium-fabric-0.26.3%2Bmc26.3.jar'
+url = 'https://cdn.modrinth.com/data/gvQqBUqZ/versions/Lal8mJGR/lithium-fabric-0.26.4%2Bmc26.3.jar'
 
 [update.modrinth]
 mod-id = 'gvQqBUqZ'
-version = 'fWv5bnZk'
+version = 'Lal8mJGR'

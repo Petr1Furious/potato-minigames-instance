@@ -1,15 +1,15 @@
-filename = 'entityculling-fabric-1.11.3-mc26.3.jar'
-name = 'Entity Culling'
+filename = 'entityculling-fabric-1.12.1-mc26.3.jar'
+name = 'EntityCulling'
 side = 'client'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.3' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = "45f47f7a067f5efd733a32767dc3d1d770678b2a"
+hash = "de9005580599906b55ff241bdf8cb27da999939a"
 hash-format = "sha1"
-url = 'https://cdn.modrinth.com/data/NNAgCjsB/versions/X1g3VhTx/entityculling-fabric-1.11.3-mc26.3.jar'
+url = 'https://cdn.modrinth.com/data/NNAgCjsB/versions/UWpkLRV5/entityculling-fabric-1.12.1-mc26.3.jar'
 
 [update.modrinth]
 mod-id = 'NNAgCjsB'
-version = 'X1g3VhTx'
+version = 'UWpkLRV5'

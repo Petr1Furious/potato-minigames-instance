@@ -1,12 +1,15 @@
-name = "NoChatReports-FABRIC-26.3-v2.21.0"
-filename = "NoChatReports-FABRIC-26.3-v2.21.0.jar"
+filename = 'NoChatReports-FABRIC-MC26.3-v2.21.3.jar'
+name = 'No Chat Reports'
 side = "both"
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-url = "https://cdn.modrinth.com/data/qQyHxfxd/versions/6g96avt2/NoChatReports-FABRIC-26.3-v2.21.0.jar"
+hash = "ff1da7f333f93dbe46db3f6784ea803e7baddcac"
 hash-format = "sha1"
-hash = "ed49e6780f20fcad080a211f8163c9d130ebdd34"
+url = 'https://cdn.modrinth.com/data/qQyHxfxd/versions/e3GIS0Ep/NoChatReports-FABRIC-MC26.3-v2.21.3.jar'
 
 [update.modrinth]
-mod-id = "qQyHxfxd"
-version = "6g96avt2"
+mod-id = 'qQyHxfxd'
+version = 'e3GIS0Ep'

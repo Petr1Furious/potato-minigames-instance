@@ -3,7 +3,7 @@ ao:true
 biomeBlendRadius:2
 chunkSectionFadeInTime:0.75
 cutoutLeaves:true
-enableVsync:false
+enableVsync:true
 entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
@@ -13,17 +13,17 @@ fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
-preferredGraphicsBackend:"opengl"
+preferredGraphicsBackend:"default"
 graphicsPreset:"custom"
-prioritizeChunkUpdates:0
+prioritizeChunkUpdates:1
 fullscreen:false
 exclusiveFullscreen:true
 macFullscreenMenuVisibility:true
-gamma:0.5
-guiScale:3
+gamma:1.0
+guiScale:0
 debugGuiScale:0
-maxAnisotropyBit:2
-textureFiltering:0
+maxAnisotropyBit:1
+textureFiltering:1
 maxFps:260
 improvedTransparency:false
 inactivityFpsLimit:"afk"
@@ -32,7 +32,7 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"false"
-cloudRange:128
+cloudRange:64
 renderDistance:12
 simulationDistance:8
 screenEffectScale:1.0
@@ -41,7 +41,7 @@ vignette:true
 weatherRadius:10
 autoJump:false
 rotateWithMinecart:false
-operatorItemsTab:true
+operatorItemsTab:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -58,7 +58,7 @@ toggleSprint:false
 toggleAttack:false
 toggleUse:false
 sprintWindow:7
-darkMojangStudiosBackground:true
+darkMojangStudiosBackground:false
 hideLightningFlashes:false
 hideSplashTexts:false
 mouseSensitivity:0.5
@@ -66,8 +66,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla"]
-incompatibleResourcePacks:["modernfix","yet_another_config_lib_v3"]
+resourcePacks:["vanilla","file/LowOnFire v26.2§8.zip"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -76,7 +76,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -89,7 +89,7 @@ notificationDisplayTime:1.0
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
-tutorialStep:none
+tutorialStep:movement
 mouseWheelSensitivity:1.0
 allowCursorChanges:true
 quitShortcuts:true
@@ -97,7 +97,7 @@ ctrlClickEmulatesRightClick:false
 glDebugVerbosity:1
 skipMultiplayerWarning:true
 hideMatchedNames:true
-joinedFirstServer:true
+joinedFirstServer:false
 syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
@@ -138,8 +138,8 @@ key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.spectatorHotbar:key.mouse.middle
 key_key.swapOffhand:key.keyboard.f
-key_key.saveToolbarActivator:key.keyboard.apostrophe
-key_key.loadToolbarActivator:key.keyboard.semicolon
+key_key.saveToolbarActivator:key.keyboard.c
+key_key.loadToolbarActivator:key.keyboard.x
 key_key.advancements:key.keyboard.l
 key_key.quickActions:key.keyboard.g
 key_key.debug.overlay:key.keyboard.f3
@@ -198,6 +198,7 @@ key_key.replaymod.positionkeyframe:key.keyboard.i
 key_key.replaymod.positiononlykeyframe:key.keyboard.unknown
 key_key.replaymod.timekeyframe:key.keyboard.o
 key_key.replaymod.bothkeyframes:key.keyboard.unknown
+key_armorhud.keybind.toggle:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -205,13 +206,13 @@ key_key.disable_voice_chat:key.keyboard.n
 key_key.hide_icons:key.keyboard.h
 key_key.voice_chat:key.keyboard.v
 key_key.voice_chat_settings:key.keyboard.unknown
-key_key.voice_chat_group:key.keyboard.g
+key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_zoomify.key.zoom:key.keyboard.c
-key_zoomify.key.zoom.secondary:key.keyboard.unknown
+key_zoomify.key.zoom.secondary:key.keyboard.f6
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
-soundCategory_master:0.30517901490066224
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

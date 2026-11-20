@@ -21,12 +21,6 @@ enabled_by_default = true
 mods = ["voxy-windows", "voxy-macos"]
 
 [[client.optional_sets]]
-id = "dh-set"
-display_name = "Distant Horizons"
-enabled_by_default = false
-mods = ["distanthorizons"]
-
-[[client.optional_sets]]
 id = "replay-mod-set"
 display_name = "Replay Mod"
 enabled_by_default = false
@@ -39,14 +33,48 @@ enabled_by_default = false
 mods = ["litematica", "malilib"]
 
 [[paths]]
-path = "config/fabric_loader_dependencies.json"
+path = "config/sodium-options.json"
 type = "file"
-overwrite = true
+overwrite = false
+
+[[paths]]
+path = "config/sodium-extra-options.json"
+type = "file"
+overwrite = false
+
+[[paths]]
+path = "config/moreculling.toml"
+type = "file"
+overwrite = false
+
+[[paths]]
+path = "config/lambdynlights.toml"
+type = "file"
+overwrite = false
+
+[[paths]]
+path = "config/cwb.json"
+type = "file"
+overwrite = false
+
+[[paths]]
+path = "resourcepacks"
+type = "directory"
+delete_extra = false
 
 [[paths]]
 path = "options.txt"
 type = "file"
 overwrite = false
+
+[[paths]]
+path = "options.txt"
+type = "config_options"
+config_type = "properties"
+version = 1
+options = [
+  { key = ["resourcePacks"], value = '["vanilla","file/LowOnFire v26.2§8.zip"]' },
+]
 
 [[paths]]
 path = "servers.dat"

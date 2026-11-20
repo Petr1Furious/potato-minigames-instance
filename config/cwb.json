@@ -1,0 +1,13 @@
+{
+  "fullscreenMode": "OFF",
+  "preferredFullscreenMode": "WINDOWED",
+  "useDelayedFullscreen": true,
+  "useScaledFramebuffer": false,
+  "autoHideDock": false,
+  "autoHideMenuBar": false,
+  "pauseOnLostFocusDuringMultiplayer": true,
+  "macos": {
+    "exclusiveFullscreenType": "minecraft:default",
+    "borderlessFullscreenType": "macos:borderless"
+  }
+}
