@@ -6,8 +6,8 @@ loader_version = "0.20.1"
 auth_backend = { type = "telegram", auth_base_url = "https://mc-auth.petr1furious.me" }
 
 [publish]
-base_url = "https://mc-dev.petr1furious.me/data"
-target = "rsync://minecraft@petr1furious.me/home/minecraft/srv/potato-launcher-dev/site/data"
+base_url = "https://mc.petr1furious.me/data"
+target = "rsync://minecraft@petr1furious.me/home/minecraft/srv/potato-launcher/site/data"
 mirror = true
 
 [client]
