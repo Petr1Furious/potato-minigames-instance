@@ -1,4 +1,4 @@
-filename = 'sodium-extra-fabric-0.9.6-beta.4+mc26.3.jar'
+filename = 'sodium-extra-fabric-0.9.6-beta.3+mc26.3.jar'
 name = 'Sodium Extra'
 side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
@@ -6,10 +6,10 @@ x-prismlauncher-mc-versions = [ '26.3' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = "7d8d5c0aa4ca4750c6eafdea3471c138b2a9a1f0"
+hash = "272ee2d0c23133b9c4183a609e88c1892d326c42"
 hash-format = "sha1"
-url = 'https://cdn.modrinth.com/data/PtjYWJkn/versions/7KisD3HH/sodium-extra-fabric-0.9.6-beta.4%2Bmc26.3.jar'
+url = 'https://cdn.modrinth.com/data/PtjYWJkn/versions/FNQGqNhl/sodium-extra-fabric-0.9.6-beta.3%2Bmc26.3.jar'
 
 [update.modrinth]
 mod-id = 'PtjYWJkn'
-version = '7KisD3HH'
+version = 'FNQGqNhl'

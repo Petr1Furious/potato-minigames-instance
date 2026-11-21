@@ -81,3 +81,12 @@ path = "servers.dat"
 type = "file"
 overwrite = true
 version = 1
+
+[[paths]]
+path = "config/ukus-armor-hud.toml"
+type = "config_options"
+config_type = "toml"
+version = 1
+options = [
+  { key = ["playBreakSound"], value = false },
+]

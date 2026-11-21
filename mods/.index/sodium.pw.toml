@@ -1,4 +1,4 @@
-filename = 'sodium-fabric-0.9.3-beta.5+mc26.3.jar'
+filename = 'sodium-fabric-0.9.3-beta.4+mc26.3.jar'
 name = 'Sodium'
 side = 'client'
 x-prismlauncher-loaders = [ 'fabric' ]
@@ -6,10 +6,10 @@ x-prismlauncher-mc-versions = [ '26.3' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = "33ea0f572a6afa3ba71bb17fe3ef44358c8293f9"
+hash = "4c14da0cc83490269c3759b64329adba112c9a01"
 hash-format = "sha1"
-url = 'https://cdn.modrinth.com/data/AANobbMI/versions/v7Lw0h1m/sodium-fabric-0.9.3-beta.5%2Bmc26.3.jar'
+url = 'https://cdn.modrinth.com/data/AANobbMI/versions/2MZWfUts/sodium-fabric-0.9.3-beta.4%2Bmc26.3.jar'
 
 [update.modrinth]
 mod-id = 'AANobbMI'
-version = 'v7Lw0h1m'
+version = '2MZWfUts'
