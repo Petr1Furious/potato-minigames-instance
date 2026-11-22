@@ -32,6 +32,12 @@ display_name = "Litematica"
 enabled_by_default = false
 mods = ["litematica", "malilib"]
 
+[[client.optional_sets]]
+id = "potato-assistant-set"
+display_name = "Potato Assistant"
+enabled_by_default = false
+mods = ["potato-assistant"]
+
 [[paths]]
 path = "config/sodium-options.json"
 type = "file"
