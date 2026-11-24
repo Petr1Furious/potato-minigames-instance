@@ -18,7 +18,7 @@ mod_sync = "mirror"
 id = "voxy-set"
 display_name = "Voxy"
 enabled_by_default = true
-mods = ["voxy-windows", "voxy-macos"]
+mods = ["voxy-windows", "voxy-macos", "voxy-server-side"]
 
 [[client.optional_sets]]
 id = "replay-mod-set"
