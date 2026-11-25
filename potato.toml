@@ -38,6 +38,12 @@ display_name = "Potato Assistant"
 enabled_by_default = false
 mods = ["potato-assistant"]
 
+[[client.optional_sets]]
+id = "ukus-armor-hud-set"
+display_name = "Armor HUD"
+enabled_by_default = true
+mods = ["ukus-armor-hud"]
+
 [[paths]]
 path = "config/sodium-options.json"
 type = "file"
